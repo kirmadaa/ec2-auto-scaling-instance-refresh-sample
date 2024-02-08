@@ -233,7 +233,7 @@ Resources:
     Properties:
       VpcId: !Ref VPC
       AvailabilityZone: !Select [ 0, !GetAZs '' ]
-      CidrBlock: "10.0.0.0/24"
+      CidrBlock: "10.0.1.0/24"
       MapPublicIpOnLaunch: true
       Tags:
         - Key: Name
@@ -244,7 +244,7 @@ Resources:
     Properties:
       VpcId: !Ref VPC
       AvailabilityZone: !Select [ 1, !GetAZs  '' ]
-      CidrBlock: "10.0.1.0/24"
+      CidrBlock: "10.0.2.0/24"
       MapPublicIpOnLaunch: true
       Tags:
         - Key: Name
@@ -255,7 +255,7 @@ Resources:
     Properties:
       VpcId: !Ref VPC
       AvailabilityZone: !Select [ 2, !GetAZs  '' ]
-      CidrBlock: "10.0.2.0/24"
+      CidrBlock: "10.0.3.0/24"
       MapPublicIpOnLaunch: true
       Tags:
         - Key: Name
