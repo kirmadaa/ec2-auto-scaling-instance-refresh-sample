@@ -32,7 +32,7 @@ Parameters:
     Default: "/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2"
   BuildInstanceType:
     Type: String
-    Default: "t3.micro"
+    Default: "t2.micro"
     Description: "Image Builder instance type"
   SampleAutoScalingGroupInstanceType:
     Type: String
